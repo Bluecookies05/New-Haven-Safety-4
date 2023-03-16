@@ -19,7 +19,7 @@ const navSlide = () => {
         }
       });
       
-      //====================== burger animation ===========================
+//====================== burger animation ===========================
       burger.classList.toggle('toggle');
     });
   }
