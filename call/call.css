@@ -90,7 +90,7 @@ nav{
 }
 
 
-/*==================== DIFFERENT SCREENS ==================== */
+/*============================== IPAD ==================================== */
 
 @media screen and (max-width:1024px){
   .nav-links{
@@ -107,7 +107,7 @@ h4 {
   cursor: pointer;
 }
 
-/*==================== DIFFERENT SCREENS ==================== */
+/*================================= PHONE ======================================= */
 
 @media screen and (max-width:768px){
   body{
@@ -121,8 +121,6 @@ h4 {
     font-family: monospace;
     cursor: pointer;
   }
-  
-
 
   .nav-links{
     position:absolute;
@@ -137,9 +135,11 @@ h4 {
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
+
   .nav-links li{
     opacity: 0;
   }
+  
   .burger{
     display:block;
   }
@@ -173,3 +173,12 @@ h4 {
 }
 
 /* ================ NAVBAR =============== */
+
+.callinfo{
+  background-color: rgb(164, 164, 197);
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: white;
+  padding: 2%;
+
+}

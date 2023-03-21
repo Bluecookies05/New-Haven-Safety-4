@@ -93,7 +93,7 @@ nav{
 /* ============================ NAVBAR =============================== */
 
 
-/*======================== DIFFERENT SCREENS ======================== */
+/*================================ IPAD ================================== */
 
 @media screen and (max-width:1024px){
   .nav-links{
@@ -111,7 +111,7 @@ h4 {
   cursor: pointer;
 }
 
-/*======================= DIFFERENT SCREENS ========================= */
+/*=================================== PHONE ====================================== */
 
 @media screen and (max-width:768px){
   body{
@@ -126,7 +126,6 @@ h4 {
     cursor: pointer;
   }
   
-
   .nav-links{
     position:absolute;
     right:0px;
@@ -137,12 +136,15 @@ h4 {
     flex-direction: column;  
     align-items: center;
     width:30%;
+    margin: -5%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
+
   .nav-links li{
     opacity: 0;
   }
+
   .burger{
     display:block;
   }
@@ -188,6 +190,15 @@ iframe{
 }
 
 /* ==================================== MAP ====================================== */
+
+/* ==================================== DATA ===================================== */
+
+.data{
+  background-color: mediumvioletred;
+  color:white
+}
+
+/* ==================================== DATA ===================================== */
 
 /* ==================================== FOOTER ====================================== */
 
