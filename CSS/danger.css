@@ -13,10 +13,6 @@ h4 {
   cursor: pointer;
 }
 
-h4:hover span:nth-child(1) {
-  margin-right: 5px;
-}
-
 h4:hover span:nth-child(2) {
   margin-right: 5px;
 }
@@ -32,13 +28,22 @@ h4 open{
 
 /* ======================== TITLE ANIMATION ======================== */
 
+/* <!-- ================================ TEXT ON TOP OF MAPS =================================== --> */
+
+p em {
+  color: blue;
+
+}
+
+/* <!-- ================================ TEXT ON TOP OF MAPS =================================== --> */
+
 /* ============================ NAVBAR =============================== */
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 *{
   margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+  align-content: space-around;
+
 }
 
 nav{
@@ -62,7 +67,9 @@ nav{
   display: flex;
   justify-content: space-around;
   width: 35%;
+
 }
+
 
 .nav-links li{
   list-style:none;
@@ -194,8 +201,14 @@ iframe{
 /* ==================================== DATA ===================================== */
 
 .data{
-  background-color: mediumvioletred;
-  color:white
+  color:white;
+  margin-left: 5%;
+  margin-top: 3%;
+  background-color: #652323;
+  margin-right: 80%;
+  border-radius: 2%;
+  align-items: center;
+
 }
 
 /* ==================================== DATA ===================================== */
